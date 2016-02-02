@@ -11,7 +11,7 @@ for string in root.iter('key'):
 for string in root.iter('string'):
 	valuelist.append(string.text)
 
-writefile = open("Strings1.xml", "w")
+writefile = open("Strings.xml", "w")
 writefile.write('<?xml version="1.0" encoding="UTF-8"?>\n')
 writefile.write('<resources>\n')
 
